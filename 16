@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+main () {
+
+int base, altura;
+int area , perimetro;
+printf("area y perimetro de un triangulo \n");
+printf ("Introduce la base del triangulo: ");
+scanf("%d", &base);
+printf ("Introduce la altura del triangulo: ");
+scanf("%d", &altura);
+
+area=base*altura;
+perimetro=2*base + 2*altura;
+
+printf("la area de tu triangulo es: %d\n", area);
+printf("El perimetro de tu triangulo es: %d\n", perimetro);
+}
