@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+main()
+{
+	int a=4, b=3, c=4, x=1, y=1, z=1;
+	int h;
+	printf("Evaluacion de expresiones \n");
+	
+	h=(a>b)||(b == c);
+	printf("el resultado es: %d \n", h);
+	h=(a!=b) && (a!=b)|| (x==z);
+	printf("el resultado es: %d \n", h);
+	h=((a>=b) || (x>=z)) && ((x!=b) && (y==z));
+	printf("el resultado es: %d \n", h);
+	h=(! (a>b)) || (x!=b);
+	printf("el resultado es: %d \n", h);
+}
