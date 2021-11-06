@@ -1,0 +1,34 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+main()
+{
+	float x;
+	int azar;
+	printf("Evaluacion de expresiones al azar \n");
+	azar=rand()%7;
+	if (azar==0){
+	x=5/2+20 % 6;
+	printf("el resultado es: %f y la ultima cifra es: 6\n", x);}
+	if (azar==1){
+	x=4*6/2-15/2;
+	printf("el resultado es: %f y la ultima cifra es: 2\n", x);}
+	if (azar==2){
+	x=5*15/2/(4-2);
+	printf("el resultado es: %f y la ultima cifra es: -2\n", x);}
+	if (azar==3){
+	x=8==16||7!= 4 && 4<1;
+	printf("el resultado es: %f y la ultima cifra es: 4<1\n", x);}
+	if (azar==4){
+	x=(4*3<6 || 3>5-2) && 3+2<12;
+	printf("el resultado es: %f y la ultima cifra es 5<12\n", x);}
+	if (azar==5){
+	x=7+3*6/2-1;
+	printf("el resultado es: %f y la ultima cifra es: 1\n", x);}
+	if (azar==6){
+	x=2 % 2+2*2-2/2;
+	printf("el resultado es: %f y la ultima cifra es: 1\n", x);}
+	if (azar==7){
+	x=(3*9*(3+(9*3/(3))));
+	printf("el resultado es: %f y la ultima cifra es: 3\n", x);}
+}
